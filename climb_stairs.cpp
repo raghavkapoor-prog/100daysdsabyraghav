@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+int n;
 vector<int>dp(n+1,-1);
-int climbstairs(int n ){
+int climbstairs(n ){
    int count =0;
 
    if (n==0||n==1){
